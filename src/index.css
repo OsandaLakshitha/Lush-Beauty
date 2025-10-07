@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer utilities {
+  .text-primary {
+    color: #C4A484;
+  }
+  
+  .bg-primary {
+    background-color: #C4A484;
+  }
+  
+  .bg-cream {
+    background-color: #FAF8F5;
+  }
+  
+  .border-primary {
+    border-color: #C4A484;
+  }
+  
+  .font-display {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .font-body {
+    font-family: 'Outfit', sans-serif;
+  }
+  
+  .font-elegant {
+    font-family: 'Cormorant Garamond', serif;
+  }
+}
